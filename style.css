@@ -1,0 +1,48 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;  
+    /* para que o body ocupe 100% da página */
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.container{
+    max-width: 350px;
+    margin: 0 auto;
+    /* a margin dessa forma centraliza a div, no centro da tela! */
+}
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 17px;
+    padding: 18px;
+    border-radius: 17px;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.card img{
+    width: 100%;
+    border-radius:12px ;
+}
+
+.content h2,p{
+    margin-top: 10px;
+}
+
+.content h2{
+    color: hsl(218, 44%, 22%);
+}
+
+.content p{
+    color: hsl(220, 15%, 55%);
+}
